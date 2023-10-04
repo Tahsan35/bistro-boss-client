@@ -25,6 +25,14 @@ const NavBar = () => {
       <li>
         <Link to="/secret">Secret</Link>
       </li>
+      <li>
+        <Link to="/">
+          <button className="btn">
+            Inbox
+            <div className="badge badge-secondary">+99</div>
+          </button>
+        </Link>
+      </li>
       {user ? (
         <>
           <span>{user?.displayName}</span>
