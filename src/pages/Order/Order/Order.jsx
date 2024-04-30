@@ -5,7 +5,7 @@ import { Helmet } from "react-helmet-async";
 import Cover from "../../Shared/Cover/Cover";
 import orderCoverImg from "../../../assets/shop/order.jpg";
 import { Tab, TabList, TabPanel, Tabs } from "react-tabs";
-import "react-tabs/style/react-tabs.css";
+import "react-tabs/style/react-tabs.css";        
 import OrderTab from "../OrderTab/OrderTab";
 
 const Order = () => {
